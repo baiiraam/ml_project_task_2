@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Values.image.repository | replace "/" "-" }}-deployment
+  name: python-service-deployment
   labels:
     app: python-service
 spec:
