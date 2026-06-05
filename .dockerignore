@@ -1,10 +1,27 @@
-.git
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+uv.lock
+pyproject.toml
+
+# Git
+.git/
 .gitignore
-README.md
-.vscode
-.idea
-__pycache__
-*.pyc
-.env
-helm/
+
+# CI/CD
 .github/
+.hadolint.yaml
+
+# Local development
+*.md
+hadolint.exe
+Dockerfile
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
